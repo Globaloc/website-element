@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<div class="model-1"> <!-- model-1 -->
+		<ul>
+			<li style="--i:6;"><a href="#">Home</a></li>
+			<li style="--i:5;"><a href="#">About</a></li>
+			<li class="information" style="--i:4;"><a href="#">Services</a></li>
+			<li style="--i:3;"><a href="#">Portfolio</a></li>
+			<li style="--i:2;"><a href="#">Our Team</a></li>
+			<li style="--i:1;"><a href="#">Contact</a></li>
+		</ul>
+		<div class="model-1_text">
+			Как вы могли заметить эта меню панель в 3D. Сделать это не трудно, всего лишь с использованием <span> after &
+				before.</span><br><br>
+			<span>before</span> в переводе (перед) - первый дочерний псевдоэлемент выбранного элемента. Часто используется
+			для добавления косметического содержимого в элемент с помощью свойства <span>content.</span><br><br>
+			<span>after</span> в переводе (после) - псевдоэлемент, который является последним потомком выбранного элемента.
+			Часто используется для добавления косметического содержимого в элемент с помощью свойства
+			<span>content.</span><br><br>
+			При наведении на блок он выдвигается. Это сделано с помошью <span>hover & transform.</span> <br>так же с
+			помощью <span>hover</span> и анимации <span>color</span> меняется цвет блока и текста<br><br>
+			<span>hover</span> - это псевдокласс, состояние элемента веб-страницы, которое активируется при наведении
+			курсора мыши на него.<br><br>
+			<!-- <span>hover</span> - это псевдокласс срабатывающий при наводке на элемент мышью, но не обязательно активирует его. Этот стиль может переопределяться другими относящимися к ссылкам псевдоклассами. Псевдокласс <span>hover</span> может применяться к любому псевдоэлементу.<br><br> -->
+			<span>transform</span> - это CSS-свойство, которое позволяет вам измененять внешнешний вид элементов
+			веб-страницы путем применения различных преобразований, таких как перемещение, масштабирование, поворачивать,
+			наклонять или сдвигать элемент.<br><br>
+			<span>transition</span> - это CSS свойство, которое определяет анимацию перехода для определенных свойств
+			элемента при изменении их значений. Оно позволяет установить время и плавность изменений, которые происходят
+			при пользовательских действиях, таких как наведение курсора или изменение состояния элемента.
+		</div>
+	</div><!-- /model-1 -->
+
+	<div class="model-2"> <!-- model-2 -->
+		<div class="block">
+			<span style="--i:10;"></span>
+			<span style="--i:9;"></span>
+			<span style="--i:8;"></span>
+			<span style="--i:7;"></span>
+			<span style="--i:6;"></span>
+			<span style="--i:5;"></span>
+			<span style="--i:4;"></span>
+			<span style="--i:3;"></span>
+			<span style="--i:2;"></span>
+			<span style="--i:1;"></span>
+		</div>
+		<div class="model-2_text">
+			Этот объект тоже в 3D и тоже использует псевдоэлементы <span>after & before.</span><br><br>
+			Отличается от первого тем что постоянно двигается. Это происходит<br> за счёт элемента <span>animation</span>
+			со стилем <span>infinite.</span><br><br>
+			<span>Аnimation</span> - CSS-свойство, которое позволяет задать различные параметры анимации, такие как
+			продолжительность, задержку, тип анимации и другие. <br><br>
+			Двигаются в разнобой за счет элемента <span>animation-delay</span><br> с небольшим вычислительным
+			процессом<br><br>
+			Переливается так же за счёт элемента <span>animation & infinite.</span><br><br>
+			При наведении на блок цвет становиться чётче. Тут так же используется <span>hover</span><br><br>
+		</div>
+	</div> <!-- /model-2 -->
+
+	<div class="model-3"> <!-- cubes -->
+		<div class="cube">
+			<div class="top"></div>
+			<div>
+				<span style="--i:0;"></span>
+				<span style="--i:1;"></span>
+				<span style="--i:2;"></span>
+				<span style="--i:3;"></span>
+			</div>
+		</div>
+
+		<div class="cube pink">
+			<div class="top"></div>
+			<div>
+				<span style="--i:0;"></span>
+				<span style="--i:1;"></span>
+				<span style="--i:2;"></span>
+				<span style="--i:3;"></span>
+			</div>
+		</div>
+		<div class="model-3_text">
+			Этот объект не сильно отличается от второго, это тоже 3D модель. Использует <span>animation, infinite, after,
+				before, transform.</span><br><br>
+			Градиент на кубе происходит от элемента <span>background</span> со стилем <span>linear-gradient.</span><br><br>
+			Используется <span>box-shadow</span> для перекрашенной неоновой тени.<br><br>
+		</div>
+	</div> <!-- /cubes -->
+
+	<div class="model-4">
+		<div class="buttons">
+			<a href="#" class="btn1">Button</a>
+			<a href="#" class="btn2">Button</a>
+			<a href="#" class="btn3">Button</a>
+			<a href="#" class="btn4">Button</a>
+			<a href="#" class="btn5">Button</a>
+			<a href="#" class="btn6">Button</a>
+		</div>
+		<div class="model-4_text">Все эти кнопки сделаны одними и теми же стилями, но с разным использованием.<br><br>
+			Взаимодействуют с <span>before, after, transform, transition.</span><br><br>
+			<span>transition</span> делает анимацию более плавной.<br><br>
+			При наведении проигрывают анимацию это за счёт <span>hover.</span><br><br>
+		</div>
+	</div>
+	<div class="model-5">
+		<div class="cube-360">
+			<div class="face">
+				<p>1</p>
+			</div>
+			<div class="face">
+				<p>2</p>
+			</div>
+			<div class="face">
+				<p>3</p>
+			</div>
+			<div class="face">
+				<p>4</p>
+			</div>
+			<div class="face">
+				<p>5</p>
+			</div>
+			<div class="face">
+				<p>6</p>
+			</div>
+		</div>
+		<div class="square"><span>(:</span></div>
+		<div class="model-5_text">
+			<p>
+				Этот куб смоделирован из 6 3D рамок со свойством transform cо значениями: <span>translate & rotate</span>.
+				<br><br>
+				Как мы видим первая кнопка отвечает за остановку анимации со свойстом <span>animation-play-state</span>.
+				<br><br>
+				Вторая кнопка отвечает за трансформацию 3D куба. <br><br>
+				Третья кнопка отвечает за вращения куба. С помощью написанных алгоритмов в JavaScript <br><br>
+				Четвертая кнопка меняет палитру цветов с помощью css свойств<span> color & animation</span>. <br><br>
+			</p>
+		</div>
+	</div>
+	<div class="buttons flex-wrap" onselectstart="return false" onmousedown="return false">
+		<a onselectstart="return false" onmousedown="return false" href="#" class="btn2 -click-1">ON/OFF <br>
+			animation</a>
+		<a onselectstart="return false" onmousedown="return false" href="#" class="btn3 -click-2">Transformation</a>
+		<a onselectstart="return false" onmousedown="return false" href="#" class="btn4 -click-3">Rotate the cube</a>
+		<a onselectstart="return false" onmousedown="return false" href="#" class="btn6 -click-4">Animation color</a>
+	</div>
+	<div class="link__git">
+		<div class="text">
+			<p>
+				Тот кто захочет получить исходный код может просконировать QR-код и скачать репозеторий на сайте GitHub
+				<br><br>
+				Либо по этой ссылке: <span><a
+						href="https://github.com/Globaloc/website-element">https://github.com/Globaloc/website-element</a></span>
+				<br> <br>
+				Если вы не хотите мучится, то можете писать мне в тг я вам напрямую скину ZIP проект.
+			</p> <br><br>
+			<div class="instruction">
+				Инструкция: <br><br>
+				1. Перейдите по ссылке <br><br>
+				2. Нажмите на зелёную кнопку с надписью Code/Код <br><br>
+				3. Дальше нажимаем на кнопку Download ZIP/Скачать ZIP. Начинается загрузка самого кода <br><br>
+				4. Разархивируем. Нажимаем правой кнопкой мыши по недавно скачанному файлу после извлечь в текущую папку
+				<br><br>
+				5. Появится папка с названием “website-element” заходим в эту папку затем в папку “website” <br><br>
+				6. Находим документ с названием “index” и расширением “.html” нажимаем на него правой кнопкой мыши потом
+				открыть с помощью. Выбирайте удобный для вас браузер рекомендую открыть через Yandex, Google, Chrome, Opera.
+				<br><br>
+				7. И наслаждаемся работой) P.S сайт к сожалению не адаптирован под мобилки и плантшеты, так что советую
+				открывать на компьютерах.
+			</div>
+		</div>
+		<img src="img/qr-code (1).png" alt="GitHub">
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/anchors.js"></script>
+</body>
+
+</html>
